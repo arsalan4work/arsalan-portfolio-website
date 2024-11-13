@@ -2,26 +2,264 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #080808;
+  font-family: sans-serif;
+  color: white;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Navbar */
+.navbar{
+  height: 70px;
+  width:1000px;
+  background-color: #1b1b1b;
+  margin-left: 105px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav_tags{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 15px;
+  color: #9c9c9c;
+}
+
+/* Hero Section */
+
+.hero_section{
+  width: fit-content;
+  height: fit-content;
+  /* display: flex; */
+}
+
+.info_section h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+.info_section p{
+  font-size: 16px;
+  color: #9c9c9c;
+  margin-top: 10px;
+}
+
+.outer_section{
+  /* width: 538px;
+  height: 247px; */
+  justify-content: center;
+  align-items: center;
+  padding: 110px;
+}
+
+.button_section{
+  width: 300px;
+  height: 60px;
+  font-size: 12px;
+  padding: 20px;
+  background-color: #3F8E00;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+.button_section:hover{
+  background-color: #62BA1B;
+  border:#3F8E00;
+}
+
+.img{
+display: flex;
+}
+
+/* Case Studies Section */
+.case_studies_section{
+  height: 1300px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.cs_info h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.cs_info p{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #9c9c9c;
+}
+
+.section_main{
+  width: 900px;
+  height: 1250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: auto;
+  margin-bottom: 50px;
+}
+
+.section1, .section2, .section3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.section1{
+  width: 890px;
+  height: 300px;
+}
+
+.section1 h4, h3, p{
+align-items: center;
+justify-content: center;
+}
+
+
+.section1, .section3 {
+  flex-direction: row-reverse; /* Text on the left, image on the right */
+}
+
+.section2 {
+  flex-direction: row-reverse; /* Image on the left, text on the right */
+}
+
+.section1 h3, .section2 h3, .section3 h3 {
+  margin: 5px 0;
+}
+
+.section1 p, .section2 p, .section3 p {
+  color: #9c9c9c;
+}
+
+.c_button {
+  /* display: flex; */
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.img1, .img2, .img3 {
+  width: 1000px;
+  height: 200px;
+}
+
+
+
+/* Footer */
+.footer{
+  width: full;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+/* Testimonials */
+
+.testimonials{
+  padding: 50px;
+  background: #080808;
+  height: 804px;
+  text-align: center;
+  margin-bottom: 700px;
+}
+
+.t_info{
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.t_info h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.t_info p{
+  width: 570px;
+  height: 48px;
+  margin-left: 280px;
+  text-align: center;  
+  color: #9c9c9c;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.t_section{
+    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  /* width: 445px; */
+  /* height: 215px;  */
+  margin-top: 50px;
+  max-width: 1000px;
+}
+
+.t_section > div{
+  width: 445px;
+  height: 215px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  gap: 20px;
+}
+
+.t_section h4 {
+  font-size: 1.2em;
+  font-weight:500;
+  color: white;
+  margin: 0;
+}
+
+.t_section1, .t_section2, .t_section3, .t_section4 p{
+  color: #9c9c9c;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Form Section */
+
+.form{
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+.main_form{
+  justify-content: center;
+  display: flex;
+  background-color: #1b1b1b;
+  width: 1280px;
+  height: 672px;
+}
+.main_form input{
+  width: 350px;
+  height: 35px;
+  margin-top: 10px;
 }
