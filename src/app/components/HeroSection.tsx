@@ -13,8 +13,8 @@ const HeroSection = () => {
          <button>Let&apos;s get started</button>
       </div>
       </div>
-      <div className='img'>
-      <Image
+      <div>
+      <Image className='img'
       src="/profile.jpeg"
       width={350}
       height={350}

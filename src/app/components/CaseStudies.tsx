@@ -13,12 +13,15 @@ const CaseStudies = () => {
 
       <div className="section_main">
          <div className="section1">
+
+          <div className="s_text">
            <h4>Fintech</h4>
            <h3>Work name here</h3>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Reprehenderit dolorum ipsam laboriosam minima praesentium 
             eligendi magnam neque quos rerum consequatur modi.</p>
             <button className="c_button">View case study</button>
+            </div>
                <div className="img1">
                 <Image
                  src="/image1.png"
@@ -29,7 +32,7 @@ const CaseStudies = () => {
                </div>
          </div>
 
-         <div className="section2">
+         <div className="section1">
             <div className="img2">
              <Image
              src="/image2.png"
@@ -38,22 +41,28 @@ const CaseStudies = () => {
              alt="Error!"
              />
              </div>
+
+            <div className="s_text">
            <h4>Edtech</h4>
            <h3>Work name here</h3>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Reprehenderit dolorum ipsam laboriosam minima praesentium 
             eligendi magnam neque quos rerum consequatur modi.</p>
             <button className="c_button">View case study</button>
+            </div>
             
          </div>
 
-         <div className="section3">
+         <div className="section1">
+
+         <div className="s_text">
            <h4>Ecommerce</h4>
            <h3>Work name here</h3>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Reprehenderit dolorum ipsam laboriosam minima praesentium 
             eligendi magnam neque quos rerum consequatur modi.</p>
             <button className="c_button">View case study</button>
+            </div>
             <div className="img3">
             <Image
              src="/image3.png"
