@@ -10,7 +10,7 @@ const HeroSection = () => {
           <p>Next js Developer and an industry expert </p>
       </div>
       <div className="button_section">
-         <button>Let&apos;s get started</button>
+         <button>Let&apos;s get started <i className="bi bi-arrow-right-short"></i></button>
       </div>
       </div>
       <div>

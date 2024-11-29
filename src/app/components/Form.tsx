@@ -5,7 +5,7 @@ const Form = () => {
       <div className="form_color">
        <div className="f_info">
           <h1>Get In Touch</h1>
-          <p>We are available here 365 days 24/7</p>
+          <p>We are available here 365 days 24/7.</p>
        </div>
 
              
@@ -14,10 +14,11 @@ const Form = () => {
              <input type="text" id="first" name="first" />
              <label htmlFor="last">Last name:</label>
              <input type="text" id="last" name="last" />
+             <label htmlFor="message">Message:</label>
              <textarea name="textarea" id="textarea">
              <input type="text" />
              </textarea>
-             <button type="submit">Submit</button>
+             <button type="submit"> Submit <i className="bi bi-arrow-right-short"></i> </button>
              </form>
             
           </div>

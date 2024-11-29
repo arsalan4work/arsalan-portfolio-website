@@ -15,16 +15,19 @@ const CaseStudies = () => {
          <div className="section1">
 
           <div className="s_text">
-           <h4>Fintech</h4>
-           <h3>Work name here</h3>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Reprehenderit dolorum ipsam laboriosam minima praesentium 
-            eligendi magnam neque quos rerum consequatur modi.</p>
-            <button className="c_button">View case study</button>
+           <h4>Ecommerce</h4>
+           <h2>Amazon Clone</h2>
+           <p>I have developed a personal portfolio website using the 
+            latest tech stack, including Next.js, TypeScript, CSS, 
+            and HTML, and deployed it on Vercel. As a junior web 
+            developer, I am committed to showcasing my skills, 
+            building innovative projects, and seeking opportunities 
+            to collaborate and grow within the tech industry.</p>
+            <button className="c_button">View case study <i className="bi bi-arrow-right-short"></i></button>
             </div>
                <div className="img1">
                 <Image
-                 src="/image1.png"
+                 src="/1.png"
                  width={445}
                  height={300}
                  alt="Error!"
@@ -35,7 +38,7 @@ const CaseStudies = () => {
          <div className="section1">
             <div className="img2">
              <Image
-             src="/image2.png"
+             src="/2.png"
              width={445}
              height={300}
              alt="Error!"
@@ -44,11 +47,14 @@ const CaseStudies = () => {
 
             <div className="s_text">
            <h4>Edtech</h4>
-           <h3>Work name here</h3>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Reprehenderit dolorum ipsam laboriosam minima praesentium 
-            eligendi magnam neque quos rerum consequatur modi.</p>
-            <button className="c_button">View case study</button>
+           <h2>Resume Builder</h2>
+           <p>I have developed a resume builder website using the 
+            latest tech stack, including Next.js, TypeScript, CSS, 
+            and HTML, and deployed it on Vercel. As a junior web 
+            developer, I am committed to showcasing my skills, 
+            building innovative projects, and seeking opportunities 
+            to collaborate and grow within the tech industry.</p>
+            <button className="c_button">View case study <i className="bi bi-arrow-right-short"></i></button>
             </div>
             
          </div>
@@ -56,16 +62,19 @@ const CaseStudies = () => {
          <div className="section1">
 
          <div className="s_text">
-           <h4>Ecommerce</h4>
-           <h3>Work name here</h3>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Reprehenderit dolorum ipsam laboriosam minima praesentium 
-            eligendi magnam neque quos rerum consequatur modi.</p>
-            <button className="c_button">View case study</button>
+           <h4>Technology</h4>
+           <h2>Pixel Perfect Website</h2>
+           <p>I have developed a pixel perfect website using the 
+            latest tech stack, including Next.js, TypeScript, CSS, 
+            and HTML, and deployed it on Vercel. As a junior web 
+            developer, I am committed to showcasing my skills, 
+            building innovative projects, and seeking opportunities 
+            to collaborate and grow within the tech industry.</p>
+            <button className="c_button">View case study <i className="bi bi-arrow-right-short"></i></button>
             </div>
             <div className="img3">
             <Image
-             src="/image3.png"
+             src="/3.png"
              width={445}
              height={300}
              alt="Error!"
