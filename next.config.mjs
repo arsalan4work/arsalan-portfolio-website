@@ -5,12 +5,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-   ignoreDuringBuilds: true,
-    rules: {
-      "@typescript-eslint/no-explicit-any": "off",
-    },
-  },
 };
 
 export default withSentryConfig(nextConfig, {
