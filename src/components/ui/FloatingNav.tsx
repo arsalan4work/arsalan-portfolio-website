@@ -9,15 +9,18 @@ import {
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
+// Define the type for the navItems
+interface NavItem {
+  name: string;
+  link: string;
+  icon?: JSX.Element;
+}
+
 export const FloatingNav = ({
   navItems,
   className,
 }: {
-  navItems: {
-    name: string;
-    link: string;
-    icon?: JSX.Element;
-  }[];
+  navItems: NavItem[]; // Use the defined NavItem type
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();
@@ -60,7 +63,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems.map((navItem: any, idx: number) => (
+        {navItems.map((navItem: NavItem, idx: number) => ( // Use the NavItem type
           <Link
             key={`link=${idx}`}
             href={navItem.link}

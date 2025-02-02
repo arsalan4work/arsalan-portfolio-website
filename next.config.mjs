@@ -5,6 +5,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  experimental: {
+    instrumentationHook: false,
+  },
 };
 
 export default withSentryConfig(nextConfig, {
