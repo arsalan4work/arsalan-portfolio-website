@@ -11,10 +11,6 @@
   "dependencies": {
     "@react-three/drei": "^9.121.4",
     "@react-three/fiber": "^8.17.12",
-    "@sentry/browser": "^8.52.0",
-    "@sentry/nextjs": "^8.52.0",
-    "@sentry/react": "^8.52.0",
-    "@sentry/tracing": "^7.120.3",
     "bootstrap-icons": "^1.11.3",
     "clsx": "^2.1.1",
     "mini-svg-data-uri": "^1.4.4",
